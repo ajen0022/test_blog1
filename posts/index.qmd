@@ -1,0 +1,21 @@
+---
+title: "My story title"
+author: "Amrita Jena"
+format: html
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+
+
+```{r}
+library(palmerpenguins)
+library(ggplot2)
+ggplot(penguins,
+       aes(x = species,
+           y = bill_length_mm,
+       color = sex)) +
+  geom_point()
+```

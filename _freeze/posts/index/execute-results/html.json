@@ -1,0 +1,16 @@
+{
+  "hash": "82496fbdbd8ba8548ac3dbf26b861922",
+  "result": {
+    "markdown": "---\ntitle: \"My story title\"\nauthor: \"Amrita Jena\"\nformat: html\n---\n\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(palmerpenguins)\nlibrary(ggplot2)\nggplot(penguins,\n       aes(x = species,\n           y = bill_length_mm,\n       color = sex)) +\n  geom_point()\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: Removed 2 rows containing missing values (`geom_point()`).\n```\n:::\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
